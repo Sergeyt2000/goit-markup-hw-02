@@ -18,6 +18,7 @@ a {
 }
 
 .logo {
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -83,6 +84,7 @@ a {
 }
 .hero-button {
   background-color: #4d5ae5;
+  cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -100,16 +102,108 @@ a {
 .benefits-item {
 }
 .benefits-subtitle {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .benefits-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* #endregion */
+
+/* #region Team */
+.team {
+  background-color: #f4f4fd;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.team-list {
+}
+.team-item {
+}
+.team-foto {
+}
+.team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.team-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+/* #endregion */
+
+/* #region Portfolio */
+.portfolio {
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-img {
+}
+.portfolio-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* #endregion */
+
+/* #region Footer */
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-logo .logo-part {
+  color: #f4f4fd;
+}
+.footer-desc {
 font-weight: 400;
-font-size: 16px;
+font-size: 16px; 
 line-height: 1.5;
 letter-spacing: 0.02em;
+color: #f4f4fd;
 }
 /* #endregion */
