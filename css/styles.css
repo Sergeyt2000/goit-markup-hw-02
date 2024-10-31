@@ -72,8 +72,7 @@ a {
 
 /* #region Hero */
 .hero {
-  background-color: #2e2f42;
-  color: #fff;
+  background-color: #2e2f42;  
 }
 .hero-title {
   font-weight: 700;
@@ -81,9 +80,15 @@ a {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #fff;
 }
 .hero-button {
   background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
   cursor: pointer;
 }
 .hero-button:hover,
@@ -195,15 +200,16 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 .footer-logo .logo-part {
   color: #f4f4fd;
 }
 .footer-desc {
-font-weight: 400;
-font-size: 16px; 
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #f4f4fd;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
 /* #endregion */
